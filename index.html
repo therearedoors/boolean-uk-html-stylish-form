@@ -8,6 +8,36 @@
     <title>Full Stack Portfolio</title>
   </head>
   <body>
-
+    <main>
+      <h1>Say Hello!</h1>
+      <form action="/thankyou.html">
+        <label>Your Name
+            <input type="text" placeholder="Enter your name" required>
+        </label>
+        <label>Email
+            <input type="email" placeholder="Enter your email address" required>
+        </label>
+        <label>Needed Services
+            <select name="services" placeholder="Choose Services" required>
+              <option value="">Choose Services</option>
+              <option value="lon">Web Design</option>
+              <option value="ber">Web Development</option>
+              <option value="ist">Window Cleaning</option>
+            </select>
+        </label>
+        <label>Budget
+          <select name="budget" required>
+            <option value="">Select Budget</option>
+            <option value="&lt;25">Less than £25</option>
+            <option value="£25-£100">£25 to £100</option>
+            <option value=">£100">Over £100</option>
+          </select>
+        </label>
+        <label>Message
+          <textarea placeholder="Your message here" required></textarea>
+        </label>
+        <input type="submit" value="Submit &rarr;">  
+      </form>
+    </main>
   </body>
 </html>
